@@ -1,0 +1,192 @@
+body {
+  
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: blue;
+}
+.vid{
+ width:1920px;
+ margin: 0 32%;
+ }
+
+.askar{
+  background-image: url("img/verh.png");
+  background-repeat: no-repeat;}
+.askar img{
+  width: 1920px;
+  padding-top: 20px;
+  padding-bottom: -100px;
+  display: flex;
+   margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+  }
+.askar2{
+margin-top: -40px;
+}
+
+	
+.header a {
+text-decoration: none;
+}
+.header{
+ 
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(252, 252, 255 , 0.9);
+  color: #fff;
+  }
+.header_section{
+  display: flex;
+  align-items: center;
+}
+.header_item{
+  padding: 10px 15px;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.header_item:hover{
+  background-color: #ff9900;
+  border-radius: 4px;
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+.main-picture{
+  text-align: center;
+  height:30%;
+
+  background-color: rgba(252, 252, 255 , 0.9);
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+.mnav {
+ background-color: rgba(51,51,51, 0.7);
+padding-top: 0;
+}
+
+.nav {
+  display: inline-block;
+  color: white;
+}
+
+.nav1{
+  width: 25%;
+  padding-left: 2%;
+}
+
+.nav1 img{
+  padding-top: -20;
+  border-radius: 50%;
+  width: 35%;
+}
+.nav2{
+  text-align: center;
+  width: 49%;
+  margin-left: -5%;
+}
+.navbar li  {
+  list-style-type: none;
+  display: inline;
+  margin-left: 1%;
+
+}
+.nav3 {
+  width: 20%;
+}
+.navbar {
+  padding-top: 5;
+  padding-bottom: 5;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.navbar a{
+  font-size: 20px;
+  padding: 1%;
+  color: black;
+
+}
+.navbar a:hover {
+  background-color: white;
+}
+.maintort{
+  background-color: rgba(255,250,250,0.3);
+  width: 100%;
+  margin-right: 50%;
+}
+
+.tablica {
+  width: 60%;
+  margin: auto;
+  background-color: rgba(255,250,250,0.6);
+
+
+
+}
+.maintort td {
+  vertical-align: bottom;
+vertical-align: text-bottom;}
+
+.maintort img{
+  vertical-align: bottom;
+  height: 20vw;
+}
+
+.pff2{
+  background-color: rgba(255,250,250,0.3);
+  width: 80%;
+  margin: auto;
+
+}
+
+.pff2 table{
+  margin: auto;
+}
+.pff2 img{
+  height: 90%;
+  width: 90%;
+}
+.nayti{
+  background-color: rgba(255, 0, 0, 0.2);
+
+  font-size: 200%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.nayti a{
+  color: black;
+}
+#map {
+      height: 400px;
+      width: 100%;
+      margin: auto;
+      border-radius: 0 0 5% 5%;
+     }
+.konec {
+  font-size: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.tablica table {
+margin:auto;
+padding-top:15px;
+}
+a:active { 
+border:none;
+}
+@media screen and (max-width: 993px) {
+  body {
+        font-size: 10px
+    }
+    .header_item{
+      padding: 10px 5px;
+      font-size: 10px;
+      margin-left: 5px;
+    }
+}
+
